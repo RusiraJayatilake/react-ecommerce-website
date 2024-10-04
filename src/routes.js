@@ -1,11 +1,14 @@
-import Template from "./template/Template";
-import ProductDetail from "./components/products/detail/ProductDetail";
 import { Route } from "react-router-dom";
+// template
+import Template from "./template/Template";
+// components
+import ProductDetail from "./components/products/detail/ProductDetail";
 import Landing from "./components/landing/Landing";
 import ProductList from "./components/products/ProductList";
-import Login from "./components/Login";
-import SignUp from "./components/SignUp";
 import ForgotPassword from "./components/ForgotPW";
+// pages
+import SignUp from "./pages/SignUp";
+import Login from "./pages/Login";
 
 function Routes() {
   return (
