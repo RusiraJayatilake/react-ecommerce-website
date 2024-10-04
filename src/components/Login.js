@@ -19,6 +19,7 @@ const Login = () => {
                       type="email"
                       className="form-control form-control-sm"
                       placeholder="Email"
+                      required
                     />
                   </div>
 
@@ -27,6 +28,7 @@ const Login = () => {
                       type="password"
                       className="form-control form-control-sm"
                       placeholder="Password"
+                      required
                     />
                   </div>
 

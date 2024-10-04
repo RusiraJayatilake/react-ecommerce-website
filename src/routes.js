@@ -1,6 +1,6 @@
 import Template from "./template/Template";
 import ProductDetail from "./components/products/detail/ProductDetail";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Landing from "./components/landing/Landing";
 import ProductList from "./components/products/ProductList";
 import Login from "./components/Login";

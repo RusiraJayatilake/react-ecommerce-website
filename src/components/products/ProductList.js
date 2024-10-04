@@ -111,7 +111,6 @@ function ProductList() {
       fetch("https://fakestoreapi.com/products")
         .then((res) => res.json())
         .then((json) => {
-          console.log("from API: ", json);
           setProductData(json);
           setIsLoading(false);
         });

@@ -1,6 +1,6 @@
-import BannerZero from "./banner-0.jpg";
-import BannerOne from "./banner-1.jpg";
-import BannerTwo from "./banner-2.jpg";
+import BannerZero from "../../assets/img/banner/banner-0.jpg";
+import BannerOne from "../../assets/img/banner/banner-1.jpg";
+import BannerTwo from "../../assets/img/banner/banner-2.jpg";
 
 function BannerIncidator(props) {
   return (
@@ -30,10 +30,10 @@ function BannerImage(props) {
           src={props.image}
         />
       </div>
-      <div className="carousel-caption d-none d-lg-block">
+      {/* <div className="carousel-caption d-none d-lg-block">
         <h5>Banner Header</h5>
         <p>Some representative placeholder content for the banner.</p>
-      </div>
+      </div> */}
     </div>
   );
 }
